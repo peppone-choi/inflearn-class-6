@@ -8,22 +8,22 @@ export const ranges = [
 export const types = [
   {
     id: "number",
-    name: "숫자",
+    name: "숫자 (0~9)",
     range: ranges[0],
   },
   {
     id: "lowercase",
-    name: "소문자",
+    name: "소문자 (a~z)",
     range: ranges[1],
   },
   {
     id: "uppercase",
-    name: "대문자",
+    name: "대문자 (A~Z)",
     range: ranges[2],
   },
   {
     id: "special",
-    name: "특수 문자",
+    name: "특수 문자 (@, !, $, &, %)",
     range: ranges[3],
   },
 ];
